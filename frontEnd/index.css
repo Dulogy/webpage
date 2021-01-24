@@ -1,0 +1,131 @@
+*{
+    color: white;
+}
+.navbar{
+    background: linear-gradient(90deg, rgb(241, 13, 173) 30%,  rgb(5, 2, 53) 100%);
+}
+.navbar-brand{
+    text-align: left;
+    margin-right: 65%;
+    font-size: xx-large;
+    font-style :oblique;
+    font-weight: 900;
+}
+button {
+    border: none;
+    outline: none;
+    border-radius: 20px 20px 20px 20px;
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    background: linear-gradient(90deg, rgb(241, 13, 173) 30%,  rgb(5, 2, 53) 100%);
+
+}
+a{
+    cursor: pointer;
+}
+.nav-link:hover{
+    transform: scale(1.02);
+}
+button:hover{
+    background-color: rgb(5, 18, 128);
+}
+.collapsed{
+    background-color: rgb(228, 228, 236);
+    cursor: pointer;
+}
+.collapsed:hover{
+    background-color: rgb(127, 21, 83);
+}
+
+.contact{
+    text-align: center;
+    background: linear-gradient(90deg, rgb(241, 13, 173) 30%,  rgb(5, 2, 53) 100%);
+}
+
+.footer{
+    text-align: center;
+    margin: 0;
+    height: 60px;
+    width: 100vw;
+    background-color: rgb(78, 78, 226);
+    color: black;
+}
+
+/*section*/
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(90deg, rgb(5, 2, 53) 30%,  rgb(231, 79, 236) 100%);
+}
+
+.social{
+    height: 60px;
+    width: 100vw;
+    background: linear-gradient(90deg, rgb(17, 10, 125) 30%,  rgb(231, 79, 236) 100%);
+}
+.social-media{
+    margin:35%;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+}
+.social-media div{
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#intro{
+    display: flex;
+    flex-direction: row;   
+}
+#intro .content{
+    margin-top: 5%;
+    width: 130%;
+}
+.content .title{
+    border-left:3px solid rgb(185, 68, 200) ;
+    margin-left: 5%;
+    padding-left: 5px;
+}
+.content .description {
+    margin-left: 5%;
+} 
+.content .buttons {
+    margin-left: 7%;
+    margin-top: 10px;
+} 
+.image{
+    margin-top: 2%;
+    margin-left: 5%;
+    height: 400px;
+    width: 320px;
+}
+
+#about,#upcoming,#team{
+    display: flex;
+    flex-direction: row;
+   
+}
+#gallery{
+    background: linear-gradient(90deg, rgb(5, 2, 53) 30%,  rgb(231, 79, 236) 100%);
+    text-align: center;
+}
+#gallery img{
+    width: 80%;
+    height: 300px;
+    margin-bottom: 5px;
+}
+#gallery #next{
+    border-left:3px solid rgb(185, 68, 200) ;
+}
+
+
+
+
+
+
